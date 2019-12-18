@@ -97,8 +97,12 @@ body {
 /* Column Icons */
 .smpIcon {
   border-radius: 50%;
-  border: 3px solid white;
-  width: 100%;
+  border: 3px solid black;
+  width: 70%;
+  margin: 0px 15% 10px 15%;
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.65);
+  -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.65);
+  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.65);
 }
 
 /* UL Padding */
@@ -110,18 +114,26 @@ body {
 /* li img */ 
 .col-md-4 li img {
   width: 25%;
-  margin: 0 37.5% 0 37.5%;
+  margin: 6px 37.5% 6px 37.5%;
 }
 
 /* Crafting Recipes */
 .recipe {
   width: 75% !important;
-  margin: 0 12.5% 0 12.5% !important;
+  margin: 6px 12.5% 0px 12.5% !important; /* !important overwrites .col-md-4 li img */
 }
 
 /* Paragraph Italics Styling */
 p i {
   font-size: 14px;
+}
+
+/* Image Border and Box shadow */
+ul li img { 
+  border: 1px solid black;
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.65);
+  -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.65);
+  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.65);
 }
 
 /* ============ */
