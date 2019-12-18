@@ -1,0 +1,186 @@
+﻿/* ========= */
+/* Global    */
+/* ========= */
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+  background-color: #FFEFC3 !important;
+  line-height: 1.3125;
+  background-image: url('../img/bg.png');
+}
+
+/* NAVBAR */
+#navbar {
+  z-index: 5;
+  overflow: hidden;
+  background-color: #4E7B66 !important;
+  -webkit-box-shadow: 1px 1px 1px 2px rgba(0,0,0,0.5);
+  -moz-box-shadow: 1px 1px 1px 2px rgba(0,0,0,0.5);
+  box-shadow: 1px 1px 1px 2px rgba(0,0,0,0.5);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.currentPage {
+  color: rgb(128, 255, 195) !important;
+}
+
+
+/* ========= */
+/* Home Page */
+/* ========= */
+
+#social_media {
+  position: fixed;
+  width: 100%;
+  top: 70vh;
+  color: white;
+}
+
+.circularIcon {
+  border-radius: 50%;
+  border: 3px solid white;
+  width: 35%;
+}
+
+.circularIcon:hover {
+  opacity: .8;
+}
+
+.socialIcon {
+  width: 32px;
+}
+
+/* ============ */
+/* SUB SMP Page */
+/* ============ */ 
+
+#subSMPHeader {
+  position: relative;
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+  -webkit-box-shadow: inset 0px -10px 10px -5px rgba(0,0,0,1);
+  -moz-box-shadow: inset 0px -10px 10px -5px rgba(0,0,0,1);
+  box-shadow: inset 0px -10px 10px -5px rgba(0,0,0,1);
+}
+
+.bg-text {
+  background-color: rgba(0,0,0, 0.4);
+  color: white;
+  font-weight: bold;
+  font-size: 80px;
+  border: 10px solid #f1f1f1;
+  position: absolute;
+  top: 45%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  width: 40vw;
+  height: 175px;
+  max-height: 375px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Column Icons */
+.smpIcon {
+  border-radius: 50%;
+  border: 3px solid black;
+  width: 70%;
+  margin: 0px 15% 10px 15%;
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.65);
+  -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.65);
+  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.65);
+}
+
+/* UL Padding */
+.container .row .col-md-4 ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+/* li img */ 
+.col-md-4 li img {
+  width: 25%;
+  margin: 6px 37.5% 6px 37.5%;
+}
+
+/* Crafting Recipes */
+.recipe {
+  width: 75% !important;
+  margin: 6px 12.5% 0px 12.5% !important; /* !important overwrites .col-md-4 li img */
+}
+
+/* Paragraph Italics Styling */
+p i {
+  font-size: 14px;
+}
+
+/* Image Border and Box shadow */
+ul li img { 
+  border: 1px solid black;
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.65);
+  -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.65);
+  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.65);
+}
+
+/* ============ */
+/*  GOOP Page   */
+/* ============ */ 
+
+.card-body {
+  height: 283px;
+}
+
+/* ============ */
+/* FAN ART Page */
+/* ============ */ 
+
+#login {
+  float: left;
+  width: 50px;
+  height: 50px;
+  background-color: #4E7B66 !important;
+  border: none;
+}
+
+.artist {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  color: black;
+}
+
+.save-btn {
+  width: 32px;
+  height: 32px;
+  background-color: transparent !important;
+  background-image: url('../img/save-icon.png');
+  background-size: 32px;
+  border: none;
+  position: relative;
+  top: 6px;
+  left: 6px;
+}
+
+form {
+  width: 50%;
+  float: left;
+}
+
+form input {
+  width: 44%;
+  margin: auto;
+}
